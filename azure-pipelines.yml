@@ -10,8 +10,6 @@ trigger:
 #  vmImage: 'windows-latest'
 pool:
   name: Default
-  demands:
-  - Agent.OS -equals Linux
 
 variables:
   solution: '**/*.sln'
